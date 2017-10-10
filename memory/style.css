@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Droid+Serif');
+html {
+  margin: 0;
+  padding: 0;
+}
+body {
+  color: #4a4a4a;
+  margin: 35px 10% 0;
+  font-family: Georgia, 'Droid Serif', Cambria, "Times New Roman", Times, serif;
+}
+.header h1 {
+  font-family: 'Abel', sans-serif;
+  font-size: 40px;
+  text-align: center;
+  border-bottom: 1px solid salmon;
+  color: #D81B60;
+  letter-spacing: .003em;
+}
+.header i {
+  color: red;
+}
+.content p, li, ol {
+  color: #4a4a4a;
+  font-size: 21px;
+  line-height: 1.58;
+  letter-spacing: -0.003em;
+}
+.text-center {
+  text-align: center;
+}
+/**
+ * specific image
+ */
+.common-image {
+  width: 400px;
+}
+@media screen and (max-width: 768px) {
+  .common-image {
+    width: 280px;
+  }
+}
+.block-image {
+  display: block;
+  margin: 0 auto;
+}
+::selection {
+  background: #9e073d;
+  color: white;
+  /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #9e073d;
+  color: white;
+  /* Gecko Browsers */
+}
+a {
+  font-size: 21px;
+  line-height: 1.58;
+  letter-spacing: -0.003em;
+  color: #00d1b2;
+  cursor: pointer;
+  text-decoration: none;
+  -webkit-transition: all 150ms ease-out;
+  transition: all 150ms ease-out;
+}
+a:hover {
+  color: #363636;
+  padding-left: 10px;
+  -webkit-transition: all 150ms ease-out;
+  transition: all 150ms ease-out;
+}
+.blocka a {
+  display: block;
+  padding-bottom: 3px;
+  margin-bottom: 20px;
+}
+.dotted_border a {
+  border-bottom: 1px dotted #d7d7d7;
+}
+.dotted_border a:last-child {
+  border-bottom: none;
+}
+.has_icon a {
+  position: relative;
+  -webkit-transition: all 150ms ease-out;
+  transition: all 150ms ease-out;
+}
+.has_icon a:hover {
+  -webkit-transition: all 150ms ease-out;
+  padding-left: 25px;
+  transition: all 150ms ease-out;
+  color: #D81B60;
+}
+
+
+/**
+ * dominic
+ */
+ ul.mnemonic_list {
+  margin: 0;
+  padding: 0;
+ }
+ .mnemonic_list li {
+  list-style: none;
+  border-bottom: 1px dotted #ddd;
+ }
